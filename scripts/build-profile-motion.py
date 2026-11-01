@@ -59,9 +59,10 @@ def build_banner():
     (ASSETS / "profile-banner-static.svg").write_text(still, encoding="utf-8")
 
 
-def capture_preview(browser, name, url):
+def capture_preview(browser, name, url, viewport=(1440, 900)):
+    width, height = viewport
     page = browser.new_page(
-        viewport={"width": 1440, "height": 900},
+        viewport={"width": width, "height": height},
         device_scale_factor=1,
         color_scheme="light",
         reduced_motion="no-preference",
@@ -84,7 +85,11 @@ def capture_preview(browser, name, url):
                 time,
             )
             image = Image.open(BytesIO(page.screenshot())).convert("RGB")
-            frames.append(image.resize((960, 600), Image.Resampling.LANCZOS))
+            frames.append(
+                image.resize(
+                    (960, round(height * 960 / width)), Image.Resampling.LANCZOS
+                )
+            )
         # A shared palette avoids colour shimmer as details move between frames.
         palette = frames[-1].quantize(colors=128)
         frames[-1].save(ASSETS / f"{name}-still.png", optimize=True)
@@ -121,6 +126,12 @@ def main():
                 browser,
                 "wonderland",
                 "https://mberca.github.io/alice-in-wonderland-analysis/?scoutTheme=light",
+            )
+            capture_preview(
+                browser,
+                "titanic",
+                "https://mberca.github.io/titanic-patterns/?scoutTheme=light",
+                viewport=(1600, 1400),
             )
         finally:
             browser.close()

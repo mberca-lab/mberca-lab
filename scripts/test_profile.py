@@ -68,7 +68,7 @@ class ProfileTests(unittest.TestCase):
 
     def test_motion_has_complete_reduced_motion_alternatives(self):
         pictures = re.findall(r"<picture>(.*?)</picture>", self.readme, re.DOTALL)
-        self.assertEqual(len(pictures), 3)
+        self.assertEqual(len(pictures), 4)
         for picture in pictures:
             with self.subTest(picture=picture):
                 source = re.search(

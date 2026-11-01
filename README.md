@@ -76,7 +76,10 @@ Python editions.
 
 <p>
   <a href="https://mberca.github.io/titanic-patterns/">
-    <img src="https://raw.githubusercontent.com/mberca/titanic-patterns/main/outputs/story-preview.png" alt="Titanic study preview: three analytical questions, survival patterns, and Bayesian group-rate intervals." width="100%">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/titanic-still.png">
+      <img src="assets/titanic-motion.gif" alt="Titanic study preview: a small liner glides above three analytical questions, survival patterns, and Bayesian group-rate intervals." width="100%">
+    </picture>
   </a>
 </p>
 
