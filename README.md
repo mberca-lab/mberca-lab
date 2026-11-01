@@ -15,7 +15,7 @@ LinkedIn Glint and regional workforce measurement at MetLife.
 through the data, checking what changes the answer, and finding a clear way
 to share it.
 
-**[Research](#selected-research)** · **[Featured study](#featured-study)** · **[Worth a Look](#worth-a-look)** · **[Methods & code](#methods--code)** · **[Connect ↗](https://www.linkedin.com/in/margaritabermejocano/)**
+**[Research](#selected-research)** · **[Projects](#projects)** · **[Featured study](#featured-study)** · **[Worth a Look](#worth-a-look)** · **[Methods & code](#methods--code)** · **[Connect ↗](https://www.linkedin.com/in/margaritabermejocano/)**
 
 ## Selected research
 
@@ -30,6 +30,36 @@ Co-author of the collaborative 2023 report; contributor to early-user survey ana
 
 These are shared research contributions, distinct from the independent
 public-data projects below.
+
+## Projects
+
+### The Engagement Atlas · Real HR evidence, human questions
+
+<p>
+  <a href="https://mberca.github.io/engagement-atlas/">
+    <img src="https://raw.githubusercontent.com/mberca/engagement-atlas/main/docs/assets/preview.png" alt="The Engagement Atlas: an editorial, interactive study of real public employee-engagement statistics." width="100%">
+  </a>
+</p>
+
+**Work is a relationship. Can we see it changing?**
+
+An independent HR analytics study of **630 public organization-year observations,
+85 reporting agencies, and eight survey years** from the US Federal Employee
+Viewpoint Survey. Real survey statistics, published at organization level—not
+synthetic data or individual employee records.
+
+Follow engagement trajectories, explore experience profiles, and compare five
+advanced machine-learning models with a simple forecast. The interesting question
+isn't just what predicts engagement: it's whether complexity earns its place,
+and whether a convincing "driver" is actually part of the measurement itself.
+
+Interactive visual storytelling, an executed analytical notebook, temporal
+validation, uncertainty, and transparent sources. Stated intention to leave
+is distinguished from actual turnover; associations are not causal effects.
+
+**[Explore the atlas ↗](https://mberca.github.io/engagement-atlas/)** ·
+[Code & notebook](https://github.com/mberca/engagement-atlas) ·
+[Methods](https://github.com/mberca/engagement-atlas/blob/main/METHODOLOGY.md)
 
 ## Featured study
 
@@ -103,6 +133,10 @@ they are separate from my professional research.
 [Text-analysis code](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/wonderland/core.py) ·
 [Local MapReduce lab](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/wonderland/mapreduce.py).
 
+**Engagement Atlas in Python:** [Reproduction guide](https://github.com/mberca/engagement-atlas#reproduce) ·
+[Executed notebook](https://github.com/mberca/engagement-atlas/blob/main/notebooks/engagement_atlas.ipynb) ·
+[Executive findings](https://github.com/mberca/engagement-atlas/blob/main/outputs/FINDINGS.md).
+
 The public stories are **static browser experiences**; no installation is needed
 to explore them. The repositories contain the code and reproduction instructions.
 
@@ -117,7 +151,8 @@ where I learn by building, compare methods and explore clearer ways to share
 what I discover.
 
 These are **AI-assisted learning and showcase projects**, not claims of business
-impact. Titanic uses public historical data; Wonderland explores a documented
+impact. The Engagement Atlas uses real public organization-level survey statistics;
+Titanic uses public historical data; Wonderland explores a documented
 edition of a public-domain novel. Associations and predictions are not evidence
 of causality, and word counts are not measures of literary importance.
 
