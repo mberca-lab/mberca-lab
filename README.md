@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/profile-banner.png" alt="Good questions. Clearer connections. An ivory banner with charcoal and berry paths of inquiry." width="100%">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner-static.svg">
+    <img src="assets/profile-banner.svg" alt="Good questions. Clearer connections. An animated constellation of inquiry, with woven curves and small book, measurement and compass icons." width="100%">
+  </picture>
 </p>
 
 # Margarita Bermejo Cano
@@ -37,7 +40,10 @@ public-data projects below.
 
 <p>
   <a href="https://mberca.github.io/engagement-atlas/">
-    <img src="https://raw.githubusercontent.com/mberca/engagement-atlas/main/docs/assets/preview.png" alt="The Engagement Atlas: an editorial, interactive study of real public employee-engagement statistics." width="100%">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/engagement-atlas-still.png">
+      <img src="assets/engagement-atlas-motion.gif" alt="The Engagement Atlas: its decorative atlas assembles above an interactive study of real public employee-engagement statistics." width="100%">
+    </picture>
   </a>
 </p>
 
@@ -94,7 +100,10 @@ A space for something new, recently revisited, or simply worth sharing.
 
 <p>
   <a href="https://mberca.github.io/alice-in-wonderland-analysis/">
-    <img src="https://raw.githubusercontent.com/mberca/alice-in-wonderland-analysis/main/docs/assets/showcase.png" alt="Wonderland, Measured: a preview of the literary-data reading room and original counting question." width="100%">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/wonderland-still.png">
+      <img src="assets/wonderland-motion.gif" alt="Wonderland, Measured: a small rabbit hops across the literary-data reading room above the original counting question." width="100%">
+    </picture>
   </a>
 </p>
 

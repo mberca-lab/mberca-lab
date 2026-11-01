@@ -1,9 +1,9 @@
 """Check the public profile's navigation, editorial structure and boundaries."""
 
-from pathlib import Path
 import re
 import unittest
-
+import xml.etree.ElementTree as ET
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -65,6 +65,30 @@ class ProfileTests(unittest.TestCase):
         self.assertIn("not claims of business", self.readme)
         self.assertIn("not causes", self.readme)
         self.assertIn("not measures of literary importance", self.readme)
+
+    def test_motion_has_complete_reduced_motion_alternatives(self):
+        pictures = re.findall(r"<picture>(.*?)</picture>", self.readme, re.DOTALL)
+        self.assertEqual(len(pictures), 3)
+        for picture in pictures:
+            with self.subTest(picture=picture):
+                source = re.search(
+                    r'<source media="\(prefers-reduced-motion: reduce\)" '
+                    r'srcset="([^"]+)"',
+                    picture,
+                )
+                self.assertIsNotNone(source)
+                self.assertTrue((ROOT / source[1]).is_file())
+        static = (ROOT / "assets" / "profile-banner-static.svg").read_text()
+        self.assertNotIn("@keyframes", static)
+
+    def test_banner_is_self_contained_and_finite(self):
+        banner = (ROOT / "assets" / "profile-banner.svg").read_text()
+        root = ET.fromstring(banner)
+        self.assertTrue(root.find("{http://www.w3.org/2000/svg}title").text)
+        self.assertNotIn("infinite", banner)
+        self.assertIn("@media (prefers-reduced-motion:no-preference)", banner)
+        self.assertNotRegex(banner, r"(?:href=|<script|@import|url\()")
+        self.assertNotIn("__FIRST_LINE__", banner)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Good questions. Clearer connections.</title>
+  <desc id="description">An original, decorative constellation of inquiry. Three woven curves draw themselves, connections emerge, and small book, measurement and compass icons find their places. This is an illustration, not measured data.</desc>
+  <style>
+    :root { --paper:#f7f4ef; --ink:#242424; --berry:#b11f4b; --mist:#c9b9bd; --faint:#e4ded9; }
+    @media (prefers-color-scheme:dark) {
+      :root { --paper:#1d1b1e; --ink:#f4efe8; --berry:#ee96b1; --mist:#9b838e; --faint:#42383f; }
+    }
+    .paper { fill:var(--paper); }
+    .ink { fill:var(--ink); }
+    .berry { fill:var(--berry); }
+    .thread { fill:none; stroke-linecap:round; stroke-linejoin:round; }
+    .guide { stroke:var(--faint); stroke-width:1; }
+    .curve { stroke-width:1.6; }
+    .accent-line { stroke:var(--berry); }
+    .ink-line { stroke:var(--ink); }
+    .mist-line { stroke:var(--mist); }
+    .node { fill:var(--paper); stroke:var(--berry); stroke-width:1.3; }
+    .icon-disc { fill:var(--paper); stroke:var(--faint); stroke-width:1; }
+    .icon { fill:none; stroke:var(--ink); stroke-width:1.4; stroke-linecap:round; stroke-linejoin:round; }
+    .bloom { transform-box:fill-box; transform-origin:center; }
+    .orbit { transform-origin:978px 177px; }
+    .finding { transform-origin:985px 174px; }
+    /* MOTION_START */
+    @media (prefers-reduced-motion:no-preference) {
+      .reveal { animation:reveal 1.1s .15s ease-out both; }
+      .second-line { animation:reveal 1.1s .4s ease-out both; }
+      .guide { animation:appear 1.4s .2s ease-out both; }
+      .draw { stroke-dasharray:1; animation:draw 2.5s var(--delay,.35s) cubic-bezier(.22,.61,.36,1) both; }
+      .bloom { animation:bloom .85s var(--delay,1.8s) cubic-bezier(.16,1,.3,1) both; }
+      .orbit { animation:orbit 3.6s .4s cubic-bezier(.22,.61,.36,1) both; }
+      .finding { animation:finding 1.7s 2.05s ease-out both; }
+      .book { animation:book 1.2s 1.8s cubic-bezier(.16,1,.3,1) both; }
+      .compass { animation:compass 1.5s 2.25s cubic-bezier(.16,1,.3,1) both; }
+      .needle { transform-origin:1080px 287px; animation:needle 1.4s 2.45s ease-in-out both; }
+    }
+    @keyframes draw { from { stroke-dashoffset:1; } to { stroke-dashoffset:0; } }
+    @keyframes appear { from { opacity:0; } to { opacity:1; } }
+    @keyframes reveal { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes bloom { from { opacity:0; transform:scale(.3); } to { opacity:1; transform:scale(1); } }
+    @keyframes orbit { from { opacity:0; transform:rotate(-42deg); } 25% { opacity:1; } to { opacity:1; transform:rotate(0); } }
+    @keyframes finding { from { opacity:0; transform:scale(.3); } 55% { opacity:.8; transform:scale(1.35); } to { opacity:1; transform:scale(1); } }
+    @keyframes book { from { opacity:0; transform:translate(-14px,12px) rotate(-5deg); } to { opacity:1; transform:translate(0,0) rotate(0); } }
+    @keyframes compass { from { opacity:0; transform:translate(8px,14px); } to { opacity:1; transform:translate(0,0); } }
+    @keyframes needle { from { transform:rotate(-100deg); } 65% { transform:rotate(12deg); } to { transform:rotate(0); } }
+    /* MOTION_END */
+  </style>
+  <rect class="paper" width="1200" height="360" rx="12"/>
+  <g class="reveal ink">__FIRST_LINE__</g>
+  <g class="second-line berry">__SECOND_LINE__</g>
+  <path class="thread accent-line draw" pathLength="1" style="--delay:1s" d="M58 280H121"/>
+  <circle class="berry bloom" style="--delay:1.65s" cx="130" cy="280" r="2.5"/>
+  <text x="58" y="313" class="ink" opacity=".65" font-family="monospace" font-size="10" letter-spacing="2.5">PEOPLE / DATA / DISCOVERY</text>
+  <g>
+    <circle class="thread guide" cx="978" cy="177" r="131"/>
+    <path class="thread guide" d="M1030 36A149 149 0 0 1 1103 277M907 310A149 149 0 0 1 848 106"/>
+    <path class="thread guide" d="M834 177H1122M978 33V321" stroke-dasharray="2 9"/>
+    <path class="thread curve mist-line draw" pathLength="1" style="--delay:.55s" d="M847 273C786 119 1165 62 1115 267"/>
+    <path class="thread curve ink-line draw" pathLength="1" style="--delay:.8s" d="M824 93C960 16 960 323 1144 260"/>
+    <path class="thread curve accent-line draw" pathLength="1" d="M803 248C895 305 1046 78 1150 121"/>
+    <g class="bloom" style="--delay:1.1s"><circle class="node" cx="823" cy="256" r="3.5"/></g>
+    <g class="bloom" style="--delay:1.5s"><circle class="node" cx="868" cy="247" r="3.5"/></g>
+    <g class="bloom" style="--delay:1.85s"><circle class="node" cx="938" cy="205" r="3.5"/></g>
+    <g class="bloom" style="--delay:2.15s"><circle class="node" cx="1040" cy="137" r="3.5"/></g>
+    <g class="bloom" style="--delay:2.45s"><circle class="node" cx="1114" cy="113" r="3.5"/></g>
+    <g class="bloom" style="--delay:1.25s"><circle class="ink" cx="861" cy="82" r="2.5"/></g>
+    <g class="bloom" style="--delay:1.8s"><circle class="ink" cx="928" cy="119" r="2.5"/></g>
+    <g class="bloom" style="--delay:2.1s"><circle class="ink" cx="1000" cy="225" r="2.5"/></g>
+    <g class="bloom" style="--delay:2.5s"><circle class="ink" cx="1094" cy="271" r="2.5"/></g>
+    <g class="finding">
+      <circle class="paper" cx="985" cy="174" r="16"/>
+      <circle class="thread accent-line" cx="985" cy="174" r="13" stroke-width=".8"/>
+      <circle class="berry" cx="985" cy="174" r="5"/>
+    </g>
+    <g class="orbit">
+      <circle class="icon-disc" cx="1063" cy="78" r="22"/>
+      <path class="icon" d="M1053 84V73M1063 84V68M1073 84V76M1050 88H1076"/>
+      <circle class="berry" cx="1063" cy="68" r="2"/>
+    </g>
+    <g class="book">
+      <circle class="icon-disc" cx="851" cy="215" r="22"/>
+      <path class="icon" d="M851 207C846 203 840 204 839 205V222C844 220 848 222 851 225C854 222 858 220 863 222V205C862 204 856 203 851 207ZM851 207V225M842 210L847 211M855 211L860 210M842 215L847 216M855 216L860 215"/>
+    </g>
+    <g class="compass">
+      <circle class="icon-disc" cx="1080" cy="287" r="22"/>
+      <circle class="icon" cx="1080" cy="287" r="12"/>
+      <path class="icon" d="M1080 272V275M1080 299V302M1065 287H1068M1092 287H1095"/>
+      <g class="needle">
+        <path class="berry" d="M1086 279L1082 289L1074 295L1078 285Z"/>
+        <path class="paper" d="M1082 289L1074 295L1078 285Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
