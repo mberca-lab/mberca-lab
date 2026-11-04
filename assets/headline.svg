@@ -8,10 +8,6 @@
     .h2 { font:400 22px 'Segoe UI',Helvetica,Arial,sans-serif; fill:var(--ink); opacity:.85; }
   </style>
   <rect width="1200" height="140" class="paper"/>
-  <defs>
-    <clipPath id="c1"><rect x="0" y="0" width="0" height="60"><animate attributeName="width" from="0" to="960" dur="2s" begin="0.3s" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" values="0;960" fill="freeze"/></rect></clipPath>
-    <clipPath id="c2"><rect x="0" y="0" width="0" height="40"><animate attributeName="width" values="0;880" keyTimes="0;1" calcMode="spline" keySplines="0.4 0 0.2 1" dur="1.6s" begin="2.1s" fill="freeze"/></rect></clipPath>
-  </defs>
-  <g transform="translate(60 40)"><g clip-path="url(#c1)"><text class="h1" x="0" y="34">I turn people data into decisions leaders can trust.</text></g><rect x="0" y="0" width="3" height="34" class="berry" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.99;1" dur="2s" begin="0.3s" fill="freeze"/><animate attributeName="x" values="0;960" keyTimes="0;1" calcMode="spline" keySplines="0.4 0 0.2 1" dur="2s" begin="0.3s" fill="freeze"/></rect></g>
-  <g transform="translate(60 84)"><g clip-path="url(#c2)"><text class="h2" x="0" y="22">Measurement · Applied ML · AI Adoption · R, Python, SQL</text></g></g>
+  <g transform="translate(60 40)"><text class="h1" x="0" y="34" opacity="0">I turn people data into decisions leaders can trust.<animate attributeName="opacity" from="0" to="1" dur="1.8s" begin="0.3s" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="1.8s" begin="0.3s" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1" fill="freeze"/></text></g>
+  <g transform="translate(60 84)"><text class="h2" x="0" y="22" opacity="0">Measurement · Applied ML · AI Adoption · R, Python, SQL<animate attributeName="opacity" from="0" to="1" dur="1.8s" begin="1.4s" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="1.8s" begin="1.4s" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1" fill="freeze"/></text></g>
 </svg>
