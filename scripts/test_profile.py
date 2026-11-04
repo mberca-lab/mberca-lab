@@ -33,7 +33,7 @@ class ProfileTests(unittest.TestCase):
 
     def test_all_three_publications_have_individual_links(self):
         research = self.readme.split("## Selected research\n", 1)[1]
-        research = research.split("\n## Featured study", 1)[0]
+        research = research.split("\n## Projects", 1)[0]
         links = re.findall(r"\]\((https://[^)]+)\)", research)
         self.assertEqual(len(links), 3)
         self.assertEqual(len(set(links)), 3)
