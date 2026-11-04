@@ -7,6 +7,16 @@
 
 # Margarita Bermejo Cano
 
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/headline-static.svg">
+  <img src="assets/headline.svg" alt="I turn employee data into decisions. Surveys, measurement, AI readiness; R, Python, SQL." width="100%">
+</picture>
+
+**I turn employee data into decisions.**<br>
+**Open to:** People Analytics / People Science roles
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/margaritabermejocano/)
+[![CV](https://img.shields.io/badge/CV-View%20my%20CV-b11f4b)](https://mberca.github.io/cv-margarita/?utm_source=github&utm_medium=profile&utm_campaign=readme)
 **People Analytics · Applied Data Science · AI Readiness & Adoption**
 
 I'm a People Science Analyst at Microsoft. I work with surveys, measurement
@@ -18,8 +28,13 @@ LinkedIn Glint and regional workforce measurement at MetLife.
 through the data, checking what changes the answer, and finding a clear way
 to share it.
 
-**[Research](#selected-research)** · **[Projects](#projects)** · **[Featured study](#featured-study)** · **[Worth a Look](#worth-a-look)** · **[Methods & code](#methods--code)** · **[Connect ↗](https://www.linkedin.com/in/margaritabermejocano/)**
+**[Start here](#start-here)** · **[Research](#selected-research)** · **[Projects](#projects)** · **[Featured study](#featured-study)** · **[Worth a Look](#worth-a-look)** · **[Methods & code](#methods--code)** · **[Connect ↗](https://www.linkedin.com/in/margaritabermejocano/)**
 
+## Start here
+
+- **[The Engagement Atlas ↗](https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: 630 organization-year observations from the US Federal Employee Viewpoint Survey, comparing five machine-learning models with a simple forecast.
+- **[Titanic / Patterns, Prediction & Uncertainty ↗](https://mberca.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: one dataset, three methods (association rules, random forest, Bayesian intervals), in R and Python.
+- **[Wonderland, Measured ↗](https://mberca.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: a 2013/14 counting project revisited, showing how a counting rule can change the answer.
 ## Selected research
 
 **[2025 Agentic Teaming & Trust Research Report ↗](https://techcommunity.microsoft.com/t5/s/gxcuf89792/attachments/gxcuf89792/MicrosoftVivaBlog/1027.2/1/2025%20Agentic%20Teaming%20%26%20Trust%20Research%20Report.pdf)**<br>
@@ -39,7 +54,7 @@ public-data projects below.
 ### The Engagement Atlas · Real HR evidence, human questions
 
 <p>
-  <a href="https://mberca.github.io/engagement-atlas/">
+  <a href="https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme">
     <picture>
       <source media="(prefers-reduced-motion: reduce)" srcset="assets/engagement-atlas-still.png">
       <img src="assets/engagement-atlas-motion.gif" alt="The Engagement Atlas: its decorative atlas assembles above an interactive study of real public employee-engagement statistics." width="100%">
@@ -63,7 +78,7 @@ Interactive visual storytelling, an executed analytical notebook, temporal
 validation, uncertainty, and transparent sources. Stated intention to leave
 is distinguished from actual turnover; associations are not causal effects.
 
-**[Explore the atlas ↗](https://mberca.github.io/engagement-atlas/)** ·
+**[Explore the atlas ↗](https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)** ·
 [Code & notebook](https://github.com/mberca/engagement-atlas) ·
 [Methods](https://github.com/mberca/engagement-atlas/blob/main/METHODOLOGY.md)
 
@@ -75,7 +90,7 @@ Python editions.
 ### Titanic / Patterns, Prediction & Uncertainty
 
 <p>
-  <a href="https://mberca.github.io/titanic-patterns/">
+  <a href="https://mberca.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme">
     <picture>
       <source media="(prefers-reduced-motion: reduce)" srcset="assets/titanic-still.png">
       <img src="assets/titanic-motion.gif" alt="Titanic study preview: a small liner glides above three analytical questions, survival patterns, and Bayesian group-rate intervals." width="100%">
@@ -93,7 +108,7 @@ The study uses a documented **891-passenger subset of public historical data**,
 not a complete passenger manifest. The two editions share a held-out comparison;
 the results describe patterns and predictions, not causes.
 
-**[Explore the story ↗](https://mberca.github.io/titanic-patterns/)** · [Code & methods](https://github.com/mberca/titanic-patterns)
+**[Explore the story ↗](https://mberca.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme)** · [Code & methods](https://github.com/mberca/titanic-patterns)
 
 ## Worth a Look
 
@@ -102,7 +117,7 @@ A space for something new, recently revisited, or simply worth sharing.
 ### October 2026 · Wonderland, Measured
 
 <p>
-  <a href="https://mberca.github.io/alice-in-wonderland-analysis/">
+  <a href="https://mberca.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme">
     <picture>
       <source media="(prefers-reduced-motion: reduce)" srcset="assets/wonderland-still.png">
       <img src="assets/wonderland-motion.gif" alt="Wonderland, Measured: a small rabbit hops across the literary-data reading room above the original counting question." width="100%">
@@ -120,7 +135,7 @@ MapReduce lab.
 The interesting part: a counting rule or a chapter’s length can change the
 answer. The reading room lets you follow the numbers back to the passages.
 
-**[Visit the reading room ↗](https://mberca.github.io/alice-in-wonderland-analysis/)** · [Python code](https://github.com/mberca/alice-in-wonderland-analysis/tree/main/wonderland) · [Methodology](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/METHODOLOGY.md)
+**[Visit the reading room ↗](https://mberca.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme)** · [Python code](https://github.com/mberca/alice-in-wonderland-analysis/tree/main/wonderland) · [Methodology](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/METHODOLOGY.md)
 
 ## Methods & code
 

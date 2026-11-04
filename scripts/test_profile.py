@@ -45,7 +45,7 @@ class ProfileTests(unittest.TestCase):
         self.assertEqual(research.count("Co-author"), 3)
 
     def test_private_destinations_are_not_promoted(self):
-        for project in ("basket-atlas", "learning-constellations", "cv-margarita"):
+        for project in ("basket-atlas", "learning-constellations"):
             with self.subTest(project=project):
                 self.assertNotIn(project, self.readme)
         self.assertNotIn("mailto:", self.readme)
@@ -68,7 +68,7 @@ class ProfileTests(unittest.TestCase):
 
     def test_motion_has_complete_reduced_motion_alternatives(self):
         pictures = re.findall(r"<picture>(.*?)</picture>", self.readme, re.DOTALL)
-        self.assertEqual(len(pictures), 4)
+        self.assertEqual(len(pictures), 5)
         for picture in pictures:
             with self.subTest(picture=picture):
                 source = re.search(
