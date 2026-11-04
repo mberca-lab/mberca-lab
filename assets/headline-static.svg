@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-labelledby="title">
-  <title id="title">I turn employee data into decisions. Surveys · Measurement · AI readiness · R, Python, SQL</title>
+  <title id="title">I turn people data into decisions leaders can trust. Surveys · Measurement · AI readiness · R, Python, SQL</title>
   <style>
     :root { --paper:#f7f4ef; --ink:#242424; --berry:#b11f4b; }
     @media (prefers-color-scheme:dark) { :root { --paper:#1d1b1e; --ink:#f4efe8; --berry:#ee96b1; } }
@@ -12,6 +12,6 @@
     <clipPath id="c1"><rect x="0" y="0" width="640" height="60"></rect></clipPath>
     <clipPath id="c2"><rect x="0" y="0" width="880" height="40"></rect></clipPath>
   </defs>
-  <g transform="translate(60 40)"><g clip-path="url(#c1)"><text class="h1" x="0" y="34">I turn employee data into decisions.</text></g></g>
+  <g transform="translate(60 40)"><g clip-path="url(#c1)"><text class="h1" x="0" y="34">I turn people data into decisions leaders can trust.</text></g></g>
   <g transform="translate(60 84)"><g clip-path="url(#c2)"><text class="h2" x="0" y="22">Surveys · Measurement · AI readiness · R, Python, SQL</text></g></g>
 </svg>

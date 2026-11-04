@@ -9,10 +9,10 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/headline-static.svg">
-  <img src="assets/headline.svg" alt="I turn employee data into decisions. Surveys, measurement, AI readiness; R, Python, SQL." width="100%">
+  <img src="assets/headline.svg" alt="I turn people data into decisions leaders can trust. Surveys, measurement, AI readiness; R, Python, SQL." width="100%">
 </picture>
 
-**I turn employee data into decisions.**<br>
+**I turn people data into decisions leaders can trust.**<br>
 **Open to:** People Analytics / People Science roles
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/margaritabermejocano/)
