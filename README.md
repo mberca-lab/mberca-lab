@@ -12,11 +12,11 @@
   <img src="assets/headline.svg" alt="I turn people data into decisions leaders can trust. Surveys, measurement, AI readiness; R, Python, SQL." width="100%">
 </picture>
 
-**I turn people data into decisions leaders can trust.**<br>
 **Open to:** People Analytics / People Science roles
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/margaritabermejocano/)
 [![CV](https://img.shields.io/badge/CV-View%20my%20CV-b11f4b)](https://mberca.github.io/cv-margarita/?utm_source=github&utm_medium=profile&utm_campaign=readme)
+
 **People Analytics · Applied Data Science · AI Readiness & Adoption**
 
 I'm a People Science Analyst at Microsoft. I work with surveys, measurement
