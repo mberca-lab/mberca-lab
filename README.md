@@ -33,7 +33,7 @@ to share it.
 ## Start here
 
 - **[The Engagement Atlas ↗](https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: 630 organization-year observations from the US Federal Employee Viewpoint Survey, comparing five machine-learning models with a simple forecast.
-- **[AI Adoption Atlas ↗](https://mberca.github.io/ai-adoption-atlas/)**: do developers trust what they use? Four public Stack Overflow survey waves, honest model comparisons and interactive storytelling.
+- **[AI, in Practice ↗](https://mberca.github.io/ai-adoption-atlas/)**: do developers trust what they use? Four public Stack Overflow survey waves, honest model comparisons and interactive storytelling.
 - **[Titanic / Patterns, Prediction & Uncertainty ↗](https://mberca.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: one dataset, three methods (association rules, random forest, Bayesian intervals), in R and Python.
 - **[Wonderland, Measured ↗](https://mberca.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: a 2013/14 counting project revisited, showing how a counting rule can change the answer.
 ## Selected research
@@ -83,11 +83,11 @@ is distinguished from actual turnover; associations are not causal effects.
 [Code & notebook](https://github.com/mberca/engagement-atlas) ·
 [Methods](https://github.com/mberca/engagement-atlas/blob/main/METHODOLOGY.md)
 
-### AI Adoption Atlas · Use is not the same as trust
+### AI, in Practice · Use is not the same as trust
 
 <p>
   <a href="https://mberca.github.io/ai-adoption-atlas/">
-    <img src="assets/ai-adoption-atlas-still.png" alt="AI Adoption Atlas: a warm editorial data story, with a field of survey-response particles and the question, do developers trust what they use?" width="100%">
+    <img src="assets/ai-adoption-atlas-still.png" alt="AI, in Practice: a warm editorial data story, with a field of survey-response particles and the question, do developers trust what they use?" width="100%">
   </a>
 </p>
 
