@@ -9,10 +9,10 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/headline-static.svg">
-  <img src="assets/headline.svg" alt="I turn people data into decisions leaders can trust. Surveys, measurement, AI readiness; R, Python, SQL." width="100%">
+  <img src="assets/headline.svg" alt="I turn people data into decisions leaders can trust. Measurement, applied ML, AI adoption; R, Python, SQL." width="100%">
 </picture>
 
-**Open to:** People Analytics / People Science roles
+**Open to:** People Analytics / People Science · AI Adoption & Measurement Analytics · Applied AI Research
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/margaritabermejocano/)
 [![CV](https://img.shields.io/badge/CV-View%20my%20CV-b11f4b)](https://mberca.github.io/cv-margarita/?utm_source=github&utm_medium=profile&utm_campaign=readme)
