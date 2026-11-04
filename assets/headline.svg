@@ -10,8 +10,8 @@
   <rect width="1200" height="140" class="paper"/>
   <defs>
     <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#fff"/><stop offset="0.88" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
-    <mask id="m1" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="140"><rect x="-1200" y="0" width="1200" height="140" fill="url(#fade)"><animate attributeName="x" from="-1200" to="120" dur="3.4s" begin="0.4s" calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.25 1" fill="freeze"/></rect></mask>
-    <mask id="m2" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="140"><rect x="-1200" y="0" width="1200" height="140" fill="url(#fade)"><animate attributeName="x" from="-1200" to="120" dur="3s" begin="3s" calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.25 1" fill="freeze"/></rect></mask>
+    <mask id="m1" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="140"><rect x="-1200" y="0" width="1200" height="140" fill="url(#fade)"><animate attributeName="x" from="-1200" to="0" dur="3.4s" begin="0.4s" calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.25 1" fill="freeze"/></rect></mask>
+    <mask id="m2" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="140"><rect x="-1200" y="0" width="1200" height="140" fill="url(#fade)"><animate attributeName="x" from="-1200" to="0" dur="3s" begin="3s" calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.25 1" fill="freeze"/></rect></mask>
   </defs>
   <g mask="url(#m1)"><text class="h1" x="60" y="74">I turn people data into decisions leaders can trust.</text></g>
   <g mask="url(#m2)"><text class="h2" x="60" y="106">Measurement · Applied ML · AI Adoption · R, Python, SQL</text></g>
