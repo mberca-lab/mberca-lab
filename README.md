@@ -21,7 +21,7 @@
 
 My work brings together people analytics, applied data science, and research on AI adoption. I work with surveys, measurement
 and mixed-methods research to understand employee experience and how people
-work with AI. Before that, I worked in customer-facing people analytics at
+work with AI. My experience also includes customer-facing people analytics at
 LinkedIn Glint and regional workforce measurement at MetLife.
 
 **R is my first choice. Curiosity is the constant.** I like following a question
