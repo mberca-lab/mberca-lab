@@ -19,7 +19,7 @@
 
 **People Analytics · Applied Data Science · AI Readiness & Adoption**
 
-I'm a People Science Analyst at Microsoft. I work with surveys, measurement
+My work brings together people analytics, applied data science, and research on AI adoption. I work with surveys, measurement
 and mixed-methods research to understand employee experience and how people
 work with AI. Before that, I worked in customer-facing people analytics at
 LinkedIn Glint and regional workforce measurement at MetLife.
