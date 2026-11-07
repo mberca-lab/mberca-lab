@@ -33,6 +33,7 @@ to share it.
 ## Start here
 
 - **[The Engagement Atlas ↗](https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: 630 organization-year observations from the US Federal Employee Viewpoint Survey, comparing five machine-learning models with a simple forecast.
+- **[Workforce Analytics & People Operations ↗](https://mberca.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: an interactive demonstration of gender pay, payroll investigation and HR reporting, with fictional data and an inspectable Excel workbook.
 - **[AI, in Practice ↗](https://mberca.github.io/ai-adoption-atlas/)**: do developers trust what they use? Four public Stack Overflow survey waves, honest model comparisons and interactive storytelling.
 - **[Titanic / Patterns, Prediction & Uncertainty ↗](https://mberca.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: one dataset, three methods (association rules, random forest, Bayesian intervals), in R and Python.
 - **[Wonderland, Measured ↗](https://mberca.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: a 2013/14 counting project revisited, showing how a counting rule can change the answer.
@@ -48,7 +49,7 @@ Co-author of the 2024 eBook on organisational AI readiness.
 Co-author of the collaborative 2023 report; contributor to early-user survey analysis.
 
 These are shared research contributions, distinct from the independent
-public-data projects below.
+portfolio projects below.
 
 ## Projects
 
@@ -82,6 +83,30 @@ is distinguished from actual turnover; associations are not causal effects.
 **[Explore the atlas ↗](https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)** ·
 [Code & notebook](https://github.com/mberca/engagement-atlas) ·
 [Methods](https://github.com/mberca/engagement-atlas/blob/main/METHODOLOGY.md)
+
+### Workforce Analytics & People Operations · An interactive demonstration
+
+<p>
+  <a href="https://mberca.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme">
+    <img src="assets/workforce-analytics-still.png" alt="Workforce Analytics and People Operations: a navy-and-teal portfolio with clearly labelled fictional gender-pay distributions, group means and an interactive job-level comparison." width="100%">
+  </a>
+</p>
+
+**A pay gap, a payroll discrepancy, and the evidence behind both.**
+
+Explore hourly-pay distributions, see how job-level representation affects a
+constructed gender pay gap, and follow a payroll discrepancy from its source
+record to a checked correction.
+
+Built around **360 fictional employee identities**, with a separate
+**200-person pay model**, an inspectable **Excel workbook** and reproducible
+Python analysis. Official Irish workforce statistics add context. The HR
+records are synthetic; this is a portfolio demonstration, not an employer
+case study.
+
+**[Explore the portfolio ↗](https://mberca.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)** ·
+[Code & methods](https://github.com/mberca/people-operations-atlas) ·
+[Excel workbook](https://mberca.github.io/people-operations-atlas/outputs/People_Operations_Control_Workbook.xlsx)
 
 ### AI, in Practice · Use is not the same as trust
 
@@ -186,6 +211,10 @@ they are separate from my professional research.
 [Executed notebook](https://github.com/mberca/engagement-atlas/blob/main/notebooks/engagement_atlas.ipynb) ·
 [Executive findings](https://github.com/mberca/engagement-atlas/blob/main/outputs/FINDINGS.md).
 
+**Workforce Analytics in Python & Excel:** [Code & reproduction guide](https://github.com/mberca/people-operations-atlas) ·
+[Executed notebook](https://github.com/mberca/people-operations-atlas/blob/main/analysis.ipynb) ·
+[Control workbook](https://mberca.github.io/people-operations-atlas/outputs/People_Operations_Control_Workbook.xlsx).
+
 The public stories are **static browser experiences**; no installation is needed
 to explore them. The repositories contain the code and reproduction instructions.
 
@@ -201,7 +230,8 @@ what I discover.
 
 These are **AI-assisted learning and showcase projects**, not claims of business
 impact. The Engagement Atlas uses real public organization-level survey statistics;
-Titanic uses public historical data; Wonderland explores a documented
+Workforce Analytics uses fictional HR records alongside official Irish workforce
+statistics. Titanic uses public historical data; Wonderland explores a documented
 edition of a public-domain novel. Associations and predictions are not evidence
 of causality, and word counts are not measures of literary importance.
 

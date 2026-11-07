@@ -31,6 +31,27 @@ class ProfileTests(unittest.TestCase):
         self.assertIn("### October 2026 · Wonderland, Measured", rotating)
         self.assertIn("METHODOLOGY.md", rotating)
 
+    def test_workforce_demo_follows_engagement_with_clear_provenance(self):
+        projects = self.readme.split("## Projects\n", 1)[1]
+        projects = projects.split("## Featured study\n", 1)[0]
+        engagement = projects.index("### The Engagement Atlas")
+        workforce = projects.index("### Workforce Analytics & People Operations")
+        ai = projects.index("### AI, in Practice")
+        self.assertLess(engagement, workforce)
+        self.assertLess(workforce, ai)
+        demo = projects[workforce:ai]
+        self.assertIn("360 fictional employee identities", demo)
+        self.assertIn("200-person pay model", demo)
+        self.assertIn("records are synthetic", demo)
+        self.assertIn("not an employer", demo)
+        self.assertIn("People_Operations_Control_Workbook.xlsx", demo)
+        self.assertIn("assets/workforce-analytics-still.png", demo)
+        start = self.readme.split("## Start here\n", 1)[1]
+        start = start.split("## Selected research\n", 1)[0]
+        self.assertLess(
+            start.index("engagement-atlas/"), start.index("people-operations-atlas/")
+        )
+
     def test_all_three_publications_have_individual_links(self):
         research = self.readme.split("## Selected research\n", 1)[1]
         research = research.split("\n## Projects", 1)[0]
