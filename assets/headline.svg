@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-labelledby="title">
-  <title id="title">I turn people data into decisions leaders can trust. Measurement · Applied ML · AI Adoption · R, Python, SQL</title>
+  <title id="title">I turn data into decisions leaders can trust. Measurement · Applied ML · AI Adoption · R, Python, SQL</title>
   <style>
     :root { --paper:#f7f4ef; --ink:#242424; --berry:#b11f4b; }
     @media (prefers-color-scheme:dark) { :root { --paper:#1d1b1e; --ink:#f4efe8; --berry:#ee96b1; } }
@@ -13,6 +13,6 @@
     <mask id="m1" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="140"><rect x="-1200" y="0" width="1200" height="140" fill="url(#fade)"><animate attributeName="x" from="-1200" to="0" dur="3.4s" begin="0.4s" calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.25 1" fill="freeze"/></rect></mask>
     <mask id="m2" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="140"><rect x="-1200" y="0" width="1200" height="140" fill="url(#fade)"><animate attributeName="x" from="-1200" to="0" dur="3s" begin="3s" calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.25 1" fill="freeze"/></rect></mask>
   </defs>
-  <g mask="url(#m1)"><text class="h1" x="60" y="74">I turn people data into decisions leaders can trust.</text></g>
+  <g mask="url(#m1)"><text class="h1" x="60" y="74">I turn data into decisions leaders can trust.</text></g>
   <g mask="url(#m2)"><text class="h2" x="60" y="106">Measurement · Applied ML · AI Adoption · R, Python, SQL</text></g>
 </svg>

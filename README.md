@@ -9,7 +9,7 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/headline-static.svg">
-  <img src="assets/headline.svg" alt="I turn people data into decisions leaders can trust. Measurement, applied ML, AI adoption; R, Python, SQL." width="100%">
+  <img src="assets/headline.svg" alt="I turn data into decisions leaders can trust. Measurement, applied ML, AI adoption; R, Python, SQL." width="100%">
 </picture>
 
 **Open to:** People Analytics / People Science · AI Adoption & Measurement Analytics · Applied AI Research
