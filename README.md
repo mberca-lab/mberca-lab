@@ -15,7 +15,7 @@
 **Open to:** People Analytics / People Science · AI Adoption & Measurement Analytics · Applied AI Research
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/margaritabermejocano/)
-[![CV](https://img.shields.io/badge/CV-View%20my%20CV-b11f4b)](https://mberca.github.io/cv-margarita/?utm_source=github&utm_medium=profile&utm_campaign=readme)
+[![CV](https://img.shields.io/badge/CV-View%20my%20CV-b11f4b)](https://mbc81.github.io/cv-margarita/?utm_source=github&utm_medium=profile&utm_campaign=readme)
 
 **People Analytics · Applied Data Science · AI Readiness & Adoption**
 
@@ -33,10 +33,10 @@ to share it.
 ## Start here
 
 - **[The Engagement Atlas ↗](https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: 630 organization-year observations from the US Federal Employee Viewpoint Survey, comparing five machine-learning models with a simple forecast.
-- **[Workforce Analytics & People Operations ↗](https://mberca.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: an interactive demonstration of gender pay, payroll investigation and HR reporting, with fictional data and an inspectable Excel workbook.
-- **[AI, in Practice ↗](https://mberca.github.io/ai-adoption-atlas/)**: do developers trust what they use? Four public Stack Overflow survey waves, honest model comparisons and interactive storytelling.
-- **[Titanic / Patterns, Prediction & Uncertainty ↗](https://mberca.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: one dataset, three methods (association rules, random forest, Bayesian intervals), in R and Python.
-- **[Wonderland, Measured ↗](https://mberca.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: a 2013/14 counting project revisited, showing how a counting rule can change the answer.
+- **[Workforce Analytics & People Operations ↗](https://mbc81.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: an interactive demonstration of gender pay, payroll investigation and HR reporting, with fictional data and an inspectable Excel workbook.
+- **[AI, in Practice ↗](https://mbc81.github.io/ai-adoption-atlas/)**: do developers trust what they use? Four public Stack Overflow survey waves, honest model comparisons and interactive storytelling.
+- **[Titanic / Patterns, Prediction & Uncertainty ↗](https://mbc81.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: one dataset, three methods (association rules, random forest, Bayesian intervals), in R and Python.
+- **[Wonderland, Measured ↗](https://mbc81.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: a 2013/14 counting project revisited, showing how a counting rule can change the answer.
 ## Selected research
 
 **[2025 Agentic Teaming & Trust Research Report ↗](https://techcommunity.microsoft.com/t5/s/gxcuf89792/attachments/gxcuf89792/MicrosoftVivaBlog/1027.2/1/2025%20Agentic%20Teaming%20%26%20Trust%20Research%20Report.pdf)**<br>
@@ -87,7 +87,7 @@ is distinguished from actual turnover; associations are not causal effects.
 ### Workforce Analytics & People Operations · An interactive demonstration
 
 <p>
-  <a href="https://mberca.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme">
+  <a href="https://mbc81.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme">
     <img src="assets/workforce-analytics-still.png" alt="Workforce Analytics and People Operations: a navy-and-teal portfolio with clearly labelled fictional gender-pay distributions, group means and an interactive job-level comparison." width="100%">
   </a>
 </p>
@@ -104,14 +104,14 @@ Python analysis. Official Irish workforce statistics add context. The HR
 records are synthetic; this is a portfolio demonstration, not an employer
 case study.
 
-**[Explore the portfolio ↗](https://mberca.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)** ·
-[Code & methods](https://github.com/mberca/people-operations-atlas) ·
-[Excel workbook](https://mberca.github.io/people-operations-atlas/outputs/People_Operations_Control_Workbook.xlsx)
+**[Explore the portfolio ↗](https://mbc81.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)** ·
+[Code & methods](https://github.com/Mbc81/people-operations-atlas) ·
+[Excel workbook](https://mbc81.github.io/people-operations-atlas/outputs/People_Operations_Control_Workbook.xlsx)
 
 ### AI, in Practice · Use is not the same as trust
 
 <p>
-  <a href="https://mberca.github.io/ai-adoption-atlas/">
+  <a href="https://mbc81.github.io/ai-adoption-atlas/">
     <img src="assets/ai-adoption-atlas-still.png" alt="AI, in Practice: a warm editorial data story, with a field of survey-response particles and the question, do developers trust what they use?" width="100%">
   </a>
 </p>
@@ -126,8 +126,8 @@ The story distinguishes professional-developer trends from exploratory model and
 samples. Question changes, dropout and uncertainty stay visible. Different surveys do not
 track the same people, and associations are not causes.
 
-**[Explore the story ↗](https://mberca.github.io/ai-adoption-atlas/)** ·
-[Code, findings & methods](https://github.com/mberca/ai-adoption-atlas)
+**[Explore the story ↗](https://mbc81.github.io/ai-adoption-atlas/)** ·
+[Code, findings & methods](https://github.com/Mbc81/ai-adoption-atlas)
 
 ## Featured study
 
@@ -137,7 +137,7 @@ Python editions.
 ### Titanic / Patterns, Prediction & Uncertainty
 
 <p>
-  <a href="https://mberca.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme">
+  <a href="https://mbc81.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme">
     <picture>
       <source media="(prefers-reduced-motion: reduce)" srcset="assets/titanic-still.png">
       <img src="assets/titanic-motion.gif" alt="Titanic study preview: a small liner glides above three analytical questions, survival patterns, and Bayesian group-rate intervals." width="100%">
@@ -155,7 +155,7 @@ The study uses a documented **891-passenger subset of public historical data**,
 not a complete passenger manifest. The two editions share a held-out comparison;
 the results describe patterns and predictions, not causes.
 
-**[Explore the story ↗](https://mberca.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme)** · [Code & methods](https://github.com/mberca/titanic-patterns)
+**[Explore the story ↗](https://mbc81.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme)** · [Code & methods](https://github.com/Mbc81/titanic-patterns)
 
 ## Worth a Look
 
@@ -164,7 +164,7 @@ A space for something new, recently revisited, or simply worth sharing.
 ### October 2026 · Wonderland, Measured
 
 <p>
-  <a href="https://mberca.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme">
+  <a href="https://mbc81.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme">
     <picture>
       <source media="(prefers-reduced-motion: reduce)" srcset="assets/wonderland-still.png">
       <img src="assets/wonderland-motion.gif" alt="Wonderland, Measured: a small rabbit hops across the literary-data reading room above the original counting question." width="100%">
@@ -182,7 +182,7 @@ MapReduce lab.
 The interesting part: a counting rule or a chapter’s length can change the
 answer. The reading room lets you follow the numbers back to the passages.
 
-**[Visit the reading room ↗](https://mberca.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme)** · [Python code](https://github.com/mberca/alice-in-wonderland-analysis/tree/main/wonderland) · [Methodology](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/METHODOLOGY.md)
+**[Visit the reading room ↗](https://mbc81.github.io/alice-in-wonderland-analysis/?utm_source=github&utm_medium=profile&utm_campaign=readme)** · [Python code](https://github.com/Mbc81/alice-in-wonderland-analysis/tree/main/wonderland) · [Methodology](https://github.com/Mbc81/alice-in-wonderland-analysis/blob/main/METHODOLOGY.md)
 
 ## Methods & code
 
@@ -200,20 +200,20 @@ they are separate from my professional research.
 
 ### Find your way
 
-**Titanic in R:** [Getting-started guide](https://github.com/mberca/titanic-patterns/blob/main/R/README.md) ·
-[Read the analysis](https://github.com/mberca/titanic-patterns/blob/main/R/analysis.R).
+**Titanic in R:** [Getting-started guide](https://github.com/Mbc81/titanic-patterns/blob/main/R/README.md) ·
+[Read the analysis](https://github.com/Mbc81/titanic-patterns/blob/main/R/analysis.R).
 
-**Wonderland in Python:** [Getting-started guide](https://github.com/mberca/alice-in-wonderland-analysis#reproduce-everything) ·
-[Text-analysis code](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/wonderland/core.py) ·
-[Local MapReduce lab](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/wonderland/mapreduce.py).
+**Wonderland in Python:** [Getting-started guide](https://github.com/Mbc81/alice-in-wonderland-analysis#reproduce-everything) ·
+[Text-analysis code](https://github.com/Mbc81/alice-in-wonderland-analysis/blob/main/wonderland/core.py) ·
+[Local MapReduce lab](https://github.com/Mbc81/alice-in-wonderland-analysis/blob/main/wonderland/mapreduce.py).
 
 **Engagement Atlas in Python:** [Reproduction guide](https://github.com/mberca/engagement-atlas#reproduce) ·
 [Executed notebook](https://github.com/mberca/engagement-atlas/blob/main/notebooks/engagement_atlas.ipynb) ·
 [Executive findings](https://github.com/mberca/engagement-atlas/blob/main/outputs/FINDINGS.md).
 
-**Workforce Analytics in Python & Excel:** [Code & reproduction guide](https://github.com/mberca/people-operations-atlas) ·
-[Executed notebook](https://github.com/mberca/people-operations-atlas/blob/main/analysis.ipynb) ·
-[Control workbook](https://mberca.github.io/people-operations-atlas/outputs/People_Operations_Control_Workbook.xlsx).
+**Workforce Analytics in Python & Excel:** [Code & reproduction guide](https://github.com/Mbc81/people-operations-atlas) ·
+[Executed notebook](https://github.com/Mbc81/people-operations-atlas/blob/main/analysis.ipynb) ·
+[Control workbook](https://mbc81.github.io/people-operations-atlas/outputs/People_Operations_Control_Workbook.xlsx).
 
 The public stories are **static browser experiences**; no installation is needed
 to explore them. The repositories contain the code and reproduction instructions.
