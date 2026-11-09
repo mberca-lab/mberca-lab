@@ -32,7 +32,7 @@ to share it.
 
 ## Start here
 
-- **[The Engagement Atlas ↗](https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: 630 organization-year observations from the US Federal Employee Viewpoint Survey, comparing five machine-learning models with a simple forecast.
+- **[The Engagement Atlas ↗](https://mbc81.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: 630 organization-year observations from the US Federal Employee Viewpoint Survey, comparing five machine-learning models with a simple forecast.
 - **[Workforce Analytics & People Operations ↗](https://mbc81.github.io/people-operations-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: an interactive demonstration of gender pay, payroll investigation and HR reporting, with fictional data and an inspectable Excel workbook.
 - **[AI, in Practice ↗](https://mbc81.github.io/ai-adoption-atlas/)**: do developers trust what they use? Four public Stack Overflow survey waves, honest model comparisons and interactive storytelling.
 - **[Titanic / Patterns, Prediction & Uncertainty ↗](https://mbc81.github.io/titanic-patterns/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: one dataset, three methods (association rules, random forest, Bayesian intervals), in R and Python.
@@ -56,7 +56,7 @@ portfolio projects below.
 ### The Engagement Atlas · Real HR evidence, human questions
 
 <p>
-  <a href="https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme">
+  <a href="https://mbc81.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme">
     <picture>
       <source media="(prefers-reduced-motion: reduce)" srcset="assets/engagement-atlas-still.png">
       <img src="assets/engagement-atlas-motion.gif" alt="The Engagement Atlas: its decorative atlas assembles above an interactive study of real public employee-engagement statistics." width="100%">
@@ -80,9 +80,9 @@ Interactive visual storytelling, an executed analytical notebook, temporal
 validation, uncertainty, and transparent sources. Stated intention to leave
 is distinguished from actual turnover; associations are not causal effects.
 
-**[Explore the atlas ↗](https://mberca.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)** ·
-[Code & notebook](https://github.com/mberca/engagement-atlas) ·
-[Methods](https://github.com/mberca/engagement-atlas/blob/main/METHODOLOGY.md)
+**[Explore the atlas ↗](https://mbc81.github.io/engagement-atlas/?utm_source=github&utm_medium=profile&utm_campaign=readme)** ·
+[Code & notebook](https://github.com/Mbc81/engagement-atlas) ·
+[Methods](https://github.com/Mbc81/engagement-atlas/blob/main/METHODOLOGY.md)
 
 ### Workforce Analytics & People Operations · An interactive demonstration
 
@@ -207,9 +207,9 @@ they are separate from my professional research.
 [Text-analysis code](https://github.com/Mbc81/alice-in-wonderland-analysis/blob/main/wonderland/core.py) ·
 [Local MapReduce lab](https://github.com/Mbc81/alice-in-wonderland-analysis/blob/main/wonderland/mapreduce.py).
 
-**Engagement Atlas in Python:** [Reproduction guide](https://github.com/mberca/engagement-atlas#reproduce) ·
-[Executed notebook](https://github.com/mberca/engagement-atlas/blob/main/notebooks/engagement_atlas.ipynb) ·
-[Executive findings](https://github.com/mberca/engagement-atlas/blob/main/outputs/FINDINGS.md).
+**Engagement Atlas in Python:** [Reproduction guide](https://github.com/Mbc81/engagement-atlas#reproduce) ·
+[Executed notebook](https://github.com/Mbc81/engagement-atlas/blob/main/notebooks/engagement_atlas.ipynb) ·
+[Executive findings](https://github.com/Mbc81/engagement-atlas/blob/main/outputs/FINDINGS.md).
 
 **Workforce Analytics in Python & Excel:** [Code & reproduction guide](https://github.com/Mbc81/people-operations-atlas) ·
 [Executed notebook](https://github.com/Mbc81/people-operations-atlas/blob/main/analysis.ipynb) ·
